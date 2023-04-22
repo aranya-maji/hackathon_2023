@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 *{
     margin:0;
     padding:0;
@@ -295,10 +296,6 @@ h1 {
   position: absolute;
   top:0;
 }
-.chakra_img
-{
-   transition: opacity 0.5s ease-in-out;
-}
 .crown
 {
   position: absolute;
@@ -428,6 +425,11 @@ h1 {
 .crown_img:hover {
   transform: scale(1.5);
   transition: 1s;
+  box-shadow: 0 0 60px white;
+  border-radius: 100%;
+}
+.crown_img {
+  transition: 1s;
 }
 .crown_img:hover + .crowndata 
 {
@@ -437,6 +439,11 @@ h1 {
 }
 .third_eye_img:hover{
   transform: scale(1.5);
+  transition: 1s;
+  box-shadow: 0 0 60px white;
+  border-radius: 100%;
+}
+.third_eye_img {
   transition: 1s;
 }
 .third_eye_img:hover + .thirdeyedata 
@@ -448,6 +455,11 @@ h1 {
 .throat_img:hover{
   transform: scale(1.5);
   transition: 1s;
+  box-shadow: 0 0 60px white;
+  border-radius: 100%;
+}
+.throat_img {
+  transition: 1s;
 }
 .throat_img:hover + .throatdata 
 {
@@ -458,40 +470,113 @@ h1 {
 .heart_img:hover{
   transform: scale(1.5);
   transition: 1s;
+  box-shadow: 0 0 60px white;
+  border-radius: 100%;
+}
+.heart_img {
+  transition: 1s;
 }
 .heart_img:hover + .heartdata 
 {
    opacity: 1;
-   transition: 5s;
+   transition: 3s;
    transform: translate(-20%, -40%);
 }
 .solar_plexus_img:hover{
   transform: scale(1.5);
   transition: 1s;
+  box-shadow: 0 0 60px white;
+  border-radius: 100%;
+}
+.solar_plexus_img {
+  transition: 1s;
 }
 .solar_plexus_img:hover + .solarplexusdata 
 {
    opacity: 1;
-   transition: 5s;
+   transition: 3s;
    transform: translate(20%, -40%);
 }
 .root_img:hover {
   transform: scale(1.5);
   transition: 1s;
+  box-shadow: 0 0 60px white;
+  border-radius: 100%;
+}
+.root_img {
+  transition: 1s;
 }
 .root_img:hover + .rootdata 
 {
    opacity: 1;
-   transition: 5s;
+   transition: 3s;
    transform: translate(20%, -40%);
 }
 .sacral_img:hover {
   transform: scale(1.5);
   transition: 1s;
+  box-shadow: 0 0 60px white;
+  border-radius: 100%;
+}
+.sacral_img {
+  transition: 1s;
 }
 .sacral_img:hover + .sacraldata 
 {
    opacity: 1;
-   transition: 5s;
+   transition: 3s;
    transform: translate(-20%, -40%);
+}
+
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+  left:600px;
+}
+.btn-two {
+  color: #FFF;
+  transition: all 0.5s;
+  position: relative; 
+}
+.btn-two span {
+  z-index: 2; 
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+}
+.btn-two::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.1);
+}
+.btn-two::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.1);
+}
+.btn-two:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(255,255,255,0);
+}
+.btn-two:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(255,255,255,0);
 }

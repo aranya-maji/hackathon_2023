@@ -120,7 +120,7 @@ body
   .chartArea
   {
     display: flex;
-    height: 60vh;
+    height: 70vh;
     background-color: rgb(2,13,41);
   }
 
@@ -150,7 +150,7 @@ body
     .chartArea
     {
       display: flex;
-      height: 20vh;
+      height: 30vh;
       background-color: rgb(2,13,41);
     }
 

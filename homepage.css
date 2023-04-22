@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
 *{
     margin:0;
     padding:0;
@@ -10,7 +10,6 @@
   }
  body
 {
-    margin: 0;
    display: flex;
    background-color:rgb(2, 13, 41);
    flex-direction: column;
@@ -527,56 +526,72 @@ h1 {
    transition: 3s;
    transform: translate(-20%, -40%);
 }
+@media only screen and (max-width: 980px) {
+  .image{ 
+      width:100%; 
+      height:50%;
+      font-size: 20x;
+  }
+}
+.fa { font-size: 19px; width: 20px; }
 
-.btn {
-  line-height: 50px;
-  height: 50px;
-  text-align: center;
-  width: 250px;
-  cursor: pointer;
-  left:600px;
-}
-.btn-two {
-  color: #FFF;
-  transition: all 0.5s;
-  position: relative; 
-}
-.btn-two span {
-  z-index: 2; 
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%; 
-}
-.btn-two::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  transition: all 0.5s;
-  border: 1px solid rgba(255,255,255,0.2);
-  background-color: rgba(255,255,255,0.1);
-}
-.btn-two::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  transition: all 0.5s;
-  border: 1px solid rgba(255,255,255,0.2);
-  background-color: rgba(255,255,255,0.1);
-}
-.btn-two:hover::before {
-  transform: rotate(-45deg);
-  background-color: rgba(255,255,255,0);
-}
-.btn-two:hover::after {
-  transform: rotate(45deg);
-  background-color: rgba(255,255,255,0);
+.btn-slide { 
+    position: relative;
+    display: inline-block; 
+    height: 50px;
+    width: 260px;
+    line-height: 50px;
+    margin: 25px 0;
+    padding: 0px;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,0.7);
+    background: linear-gradient(135deg, white 0%,rgba(255,255,255,.2) 100%);
+        }
+        
+.btn-slide:active { 
+    box-shadow: 0 8px 16px -8px rgba(0, 0, 0,0.7);
+    -webkit-transform: scale(0.98);
+    transform: scale(0.96); }
+    
+.btn-slide:hover { 
+    background: linear-gradient(-135deg, white 0%,rgba(255,255,255,.2) 100%); }
+        
+.btn-slide span.circle { 
+    display: block;
+    background-color: #fff;
+    color: rgb(2, 13, 41);
+    position: absolute;
+    margin: 5px;
+    height: 40px; 
+    width: 40px;
+    top: 0; left: 0;
+    border-radius: 50%;
+    transition: all 1.5s ease;
+ }
+        
+.btn-slide:hover span.circle { 
+    left: 100%;
+    margin-left: -45px;
+    background-color: #fff;
+    color: #79f1fc; }
+        
+.btn-slide span.title { 
+    font-family: 'Nunito Sans';
+    position: absolute;
+    left: 85px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    transition: all 1.5s linear; 
+ }
+        
+.btn-slide span.title-hover { opacity: 0;}
+.btn-slide:hover span.title { opacity: 0; }
+.btn-slide:hover span.title-hover { opacity: 1; left: 60px; }   
+    
+@media (max-width: 540px) {
+  h1 { font-size: 36px; }
+  p { font-size: 20px; }
+  
+  .btn-slide { width: 240px; }
 }

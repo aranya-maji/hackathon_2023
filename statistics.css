@@ -120,7 +120,7 @@ body
   .chartArea
   {
     display: flex;
-    height: 60vh;
+    height: 70vh;
     background-color: rgb(2,13,41);
   }
 
@@ -141,6 +141,8 @@ body
   {
     display: flex;
     width: 100vh;
+    justify-content: center;
+    align-items: center;
   }
 
   @media only screen and (max-width: 980px)
@@ -148,7 +150,7 @@ body
     .chartArea
     {
       display: flex;
-      height: 20vh;
+      height: 30vh;
       background-color: rgb(2,13,41);
     }
 
@@ -170,6 +172,8 @@ body
     {
       display: flex;
       width: 50vh;
+      justify-content: center;
+      align-items: center;
     }
   }
 

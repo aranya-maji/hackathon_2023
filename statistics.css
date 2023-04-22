@@ -121,7 +121,7 @@ body
   {
     display: flex;
     height: 70vh;
-    background-color: rgb(2,13,41);
+    background-color:rgb(2,13,41);
   }
 
   .chartGraphics
@@ -133,7 +133,6 @@ body
     align-items: center;
     padding-top: 100px;
     font-size: 150%;
-    background-color: rgb(2,13,41);
     font-family: arial, sans-serif;
     color: #cdcdcd;
   }
@@ -164,7 +163,6 @@ body
       justify-content: center;
       align-items: center;
       font-size: 150%;
-      background-color: rgb(2,13,41);
       font-family: arial, sans-serif;
       color: #cdcdcd;
     }

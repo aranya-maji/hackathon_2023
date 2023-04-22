@@ -11,8 +11,12 @@ body
 .sss
 {
     display: flex;
-    height: 100px;
+    height: 75px;
     color: white;
+    border-style: solid;
+    border-left: white;
+    border-right: white;
+    border-top: white;
     font-size: 300%;
     align-items: center;
     font-family: arial, sans-serif;
@@ -31,12 +35,30 @@ body
 .naviSystem
 {
   display: flex;
-  font-size: 50%;
+  font-size: 30%;
   color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
   height: 30px;
-  width: 30px;
-  background-color: red;
+  width: 120px;
   text-decoration: none;
+  user-select: none;
+}
+
+.naviSystem:hover
+{
+  display: flex;
+  font-size: 30%;
+  color: rgb(2,13,41);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  height: 30px;
+  width: 120px;
+  background-color: white;
+  text-decoration: none;
+  user-select: none;
 }
 
   .detailArea
@@ -260,7 +282,7 @@ body
   }
   #bar-chart .x-axis li {
     float: left;
-    margin-right: 10.5%;
+    margin-right: 9.5%;
     font-size: 11px;
     width: 11.5%;
   }

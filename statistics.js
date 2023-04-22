@@ -4,12 +4,12 @@ window.onload = function () {
         theme: "dark2",
         exportEnabled: true,
         animationEnabled: true,
-        title:{
+        title: {
             text: "Suicides commited all over India"
         },
         subtitles: [{
             text: "Click Legend to Hide or Unhide Data Series"
-        }], 
+        }],
         axisX: {
             title: "Years"
         },
@@ -39,15 +39,15 @@ window.onload = function () {
         data: [{
             type: "column",
             name: "Total Suicides",
-            showInLegend: true,      
+            showInLegend: true,
             yValueFormatString: "#,##0.#",
             dataPoints: [
-                { label: "2001",  y: 19034.5 },
+                { label: "2001", y: 19034.5 },
                 { label: "2002", y: 20015 },
                 { label: "2003", y: 25342 },
-                { label: "2004",  y: 20088 },
-                { label: "2005",  y: 28234 },
-                { label: "2006",  y: 29234 }
+                { label: "2004", y: 20088 },
+                { label: "2005", y: 28234 },
+                { label: "2006", y: 29234 }
             ]
         },
         {
@@ -67,7 +67,7 @@ window.onload = function () {
         }]
     });
     chart.render();
-    
+
     function toggleDataSeries(e) {
         if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
             e.dataSeries.visible = false;
@@ -76,5 +76,5 @@ window.onload = function () {
         }
         e.chart.render();
     }
-    
-    }
+
+}

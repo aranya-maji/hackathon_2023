@@ -21,3 +21,212 @@ body
   font-family: arial, sans-serif;
   font-size: 300%;
 }
+
+.contents
+{
+  display: flex;
+  height: 80vh;
+}
+
+.mainCircle
+{
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: arial, sans-serif;
+  font-size: 120%;
+  overflow: hidden;
+  user-select: none;
+}
+
+#sideCircle1
+{
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 47.5%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: arial, sans-serif;
+  font-size: 80%;
+  overflow: hidden;
+  user-select: none;
+}
+
+#sideCircle2
+{
+  display: flex;
+  position: absolute;
+  top: 80%;
+  left: 47.5%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: arial, sans-serif;
+  font-size: 80%;
+  overflow: hidden;
+  user-select: none;
+}
+
+#sideCircle3
+{
+  display: flex;
+  position: absolute;
+  top: 54%;
+  left: 34%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: arial, sans-serif;
+  font-size: 80%;
+  overflow: hidden;
+  user-select: none;
+}
+
+#sideCircle4
+{
+  display: flex;
+  position: absolute;
+  top: 54%;
+  left: 61%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: arial, sans-serif;
+  font-size: 70%;
+  overflow: hidden;
+  user-select: none;
+}
+
+#sideCircle5
+{
+  display: flex;
+  position: absolute;
+  top: 36%;
+  left: 57%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: arial, sans-serif;
+  font-size: 80%;
+  overflow: hidden;
+  user-select: none;
+}
+
+#sideCircle6
+{
+  display: flex;
+  position: absolute;
+  top: 71%;
+  left: 57%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: arial, sans-serif;
+  font-size: 80%;
+  overflow: hidden;
+  user-select: none;
+}
+
+#sideCircle7
+{
+  display: flex;
+  position: absolute;
+  top: 72.5%;
+  left: 38%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: arial, sans-serif;
+  font-size: 80%;
+  overflow: hidden;
+  user-select: none;
+}
+
+#sideCircle8
+{
+  display: flex;
+  position: absolute;
+  top: 37%;
+  left: 38%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: arial, sans-serif;
+  font-size: 80%;
+  overflow: hidden;
+  user-select: none;
+}
+
+@media only screen and (max-width: 980px)
+{
+  .mainCircle
+  {
+    display: flex;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: arial, sans-serif;
+    font-size: 120%;
+    overflow: hidden;
+    user-select: none;
+  }
+}

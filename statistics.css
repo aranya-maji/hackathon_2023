@@ -141,6 +141,8 @@ body
   {
     display: flex;
     width: 100vh;
+    justify-content: center;
+    align-items: center;
   }
 
   @media only screen and (max-width: 980px)
@@ -170,6 +172,8 @@ body
     {
       display: flex;
       width: 50vh;
+      justify-content: center;
+      align-items: center;
     }
   }
 

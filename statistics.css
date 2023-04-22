@@ -140,7 +140,6 @@ body
   .chartShortNote
   {
     display: flex;
-    background-color: red;
     width: 100vh;
   }
 
@@ -170,7 +169,6 @@ body
     .chartShortNote
     {
       display: flex;
-      background-color: red;
       width: 50vh;
     }
   }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
 *{
     margin:0;
     padding:0;
@@ -9,7 +10,6 @@
   }
  body
 {
-    margin: 0;
    display: flex;
    background-color:rgb(2, 13, 41);
    flex-direction: column;
@@ -274,6 +274,12 @@ h1 {
 {
   margin-top: 20;
 }
+.banner
+{
+  display: flex;
+  height: 10vh;
+  background-color: rgb(2,13,41);
+}
 
 .image
 {
@@ -294,42 +300,119 @@ h1 {
   position: absolute;
   top:-10;
 }
+.crowndata
+{
+  position: absolute;
+  top:10px;
+  left:60px;
+  width:200px;
+  height:120px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+}
 .third_eye
 {
   position: absolute;
   top:90;
 }
-
-.banner
+.thirdeyedata
 {
-  display: flex;
-  height: 10vh;
-  background-color: rgb(2,13,41);
+  position: absolute;
+  top:5px;
+  left:-200px;
+  width:200px;
+  height:120px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
 }
 .throat
 {
   position: absolute;
   top:190;
 }
+.throatdata
+{
+  position: absolute;
+  top:5px;
+  left:70px;
+  width:200px;
+  height:120px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+}
 .heart
 {
   position: absolute;
   top:280;
+}
+.heartdata
+{
+  position: absolute;
+  top:-3px;
+  left: -180px;
+  width:200px;
+  height:150px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
 }
 .solar_plexus
 {
   position: absolute;
   top: 370;
 }
+.solarplexusdata
+{
+  position: absolute;
+  top:5px;
+  left:70px;
+  width:200px;
+  height:120px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+}
 .sacral
 {
   position: absolute;
   top: 450;
 }
+.sacraldata
+{
+  position: absolute;
+  top:-10px;
+  left: -200px;
+  width:200px;
+  height:150px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity:0;
+}
 .root
 {
   position: absolute;
   top:530;
+}
+.rootdata
+{
+  position: absolute;
+  top:5px;
+  left:70px;
+  width:200px;
+  height:120px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0; 
 }
 .boxes
 {
@@ -337,4 +420,178 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.crown_img:hover {
+  transform: scale(1.5);
+  transition: 1s;
+  box-shadow: 0 0 60px white;
+  border-radius: 100%;
+}
+.crown_img {
+  transition: 1s;
+}
+.crown_img:hover + .crowndata 
+{
+   opacity: 1;
+   transition: 3s;
+   transform: translate(25%, -40%);
+}
+.third_eye_img:hover{
+  transform: scale(1.5);
+  transition: 1s;
+  box-shadow: 0 0 60px white;
+  border-radius: 100%;
+}
+.third_eye_img {
+  transition: 1s;
+}
+.third_eye_img:hover + .thirdeyedata 
+{
+   opacity: 1;
+   transition: 3s;
+   transform: translate(-25%, -40%);
+}
+.throat_img:hover{
+  transform: scale(1.5);
+  transition: 1s;
+  box-shadow: 0 0 60px white;
+  border-radius: 100%;
+}
+.throat_img {
+  transition: 1s;
+}
+.throat_img:hover + .throatdata 
+{
+   opacity: 1;
+   transition: 3s;
+   transform: translate(20%, -40%);
+}
+.heart_img:hover{
+  transform: scale(1.5);
+  transition: 1s;
+  box-shadow: 0 0 60px white;
+  border-radius: 100%;
+}
+.heart_img {
+  transition: 1s;
+}
+.heart_img:hover + .heartdata 
+{
+   opacity: 1;
+   transition: 3s;
+   transform: translate(-20%, -40%);
+}
+.solar_plexus_img:hover{
+  transform: scale(1.5);
+  transition: 1s;
+  box-shadow: 0 0 60px white;
+  border-radius: 100%;
+}
+.solar_plexus_img {
+  transition: 1s;
+}
+.solar_plexus_img:hover + .solarplexusdata 
+{
+   opacity: 1;
+   transition: 3s;
+   transform: translate(20%, -40%);
+}
+.root_img:hover {
+  transform: scale(1.5);
+  transition: 1s;
+  box-shadow: 0 0 60px white;
+  border-radius: 100%;
+}
+.root_img {
+  transition: 1s;
+}
+.root_img:hover + .rootdata 
+{
+   opacity: 1;
+   transition: 3s;
+   transform: translate(20%, -40%);
+}
+.sacral_img:hover {
+  transform: scale(1.5);
+  transition: 1s;
+  box-shadow: 0 0 60px white;
+  border-radius: 100%;
+}
+.sacral_img {
+  transition: 1s;
+}
+.sacral_img:hover + .sacraldata 
+{
+   opacity: 1;
+   transition: 3s;
+   transform: translate(-20%, -40%);
+}
+@media only screen and (max-width: 980px) {
+  .image{ 
+      width:100%; 
+      height:50%;
+      font-size: 20x;
+  }
+}
+.fa { font-size: 19px; width: 20px; }
+
+.btn-slide { 
+    position: relative;
+    display: inline-block; 
+    height: 50px;
+    width: 260px;
+    line-height: 50px;
+    margin: 25px 0;
+    padding: 0px;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,0.7);
+    background: linear-gradient(135deg, white 0%,rgba(255,255,255,.2) 100%);
+        }
+        
+.btn-slide:active { 
+    box-shadow: 0 8px 16px -8px rgba(0, 0, 0,0.7);
+    -webkit-transform: scale(0.98);
+    transform: scale(0.96); }
+    
+.btn-slide:hover { 
+    background: linear-gradient(-135deg, white 0%,rgba(255,255,255,.2) 100%); }
+        
+.btn-slide span.circle { 
+    display: block;
+    background-color: #fff;
+    color: rgb(2, 13, 41);
+    position: absolute;
+    margin: 5px;
+    height: 40px; 
+    width: 40px;
+    top: 0; left: 0;
+    border-radius: 50%;
+    transition: all 1.5s ease;
+ }
+        
+.btn-slide:hover span.circle { 
+    left: 100%;
+    margin-left: -45px;
+    background-color: #fff;
+    color: #79f1fc; }
+        
+.btn-slide span.title { 
+    font-family: 'Nunito Sans';
+    position: absolute;
+    left: 85px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    transition: all 1.5s linear; 
+ }
+        
+.btn-slide span.title-hover { opacity: 0;}
+.btn-slide:hover span.title { opacity: 0; }
+.btn-slide:hover span.title-hover { opacity: 1; left: 60px; }   
+    
+@media (max-width: 540px) {
+  h1 { font-size: 36px; }
+  p { font-size: 20px; }
+  
+  .btn-slide { width: 240px; }
 }

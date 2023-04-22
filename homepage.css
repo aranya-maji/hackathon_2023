@@ -274,6 +274,12 @@ h1 {
 {
   margin-top: 20;
 }
+.banner
+{
+  display: flex;
+  height: 10vh;
+  background-color: rgb(2,13,41);
+}
 
 .image
 {
@@ -289,47 +295,128 @@ h1 {
   position: absolute;
   top:0;
 }
+.chakra_img
+{
+   transition: opacity 0.5s ease-in-out;
+}
 .crown
 {
   position: absolute;
   top:-10;
+}
+.crowndata
+{
+  position: absolute;
+  top:10px;
+  left:60px;
+  width:200px;
+  height:120px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
 }
 .third_eye
 {
   position: absolute;
   top:90;
 }
-
-.banner
+.thirdeyedata
 {
-  display: flex;
-  height: 10vh;
-  background-color: rgb(2,13,41);
+  position: absolute;
+  top:5px;
+  left:-200px;
+  width:200px;
+  height:120px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
 }
 .throat
 {
   position: absolute;
   top:190;
 }
+.throatdata
+{
+  position: absolute;
+  top:5px;
+  left:70px;
+  width:200px;
+  height:120px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+}
 .heart
 {
   position: absolute;
   top:280;
+}
+.heartdata
+{
+  position: absolute;
+  top:-3px;
+  left: -180px;
+  width:200px;
+  height:150px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
 }
 .solar_plexus
 {
   position: absolute;
   top: 370;
 }
+.solarplexusdata
+{
+  position: absolute;
+  top:5px;
+  left:70px;
+  width:200px;
+  height:120px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+}
 .sacral
 {
   position: absolute;
   top: 450;
 }
+.sacraldata
+{
+  position: absolute;
+  top:-10px;
+  left: -200px;
+  width:200px;
+  height:150px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity:0;
+}
 .root
 {
   position: absolute;
   top:530;
+}
+.rootdata
+{
+  position: absolute;
+  top:5px;
+  left:70px;
+  width:200px;
+  height:120px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0; 
 }
 .boxes
 {
@@ -337,4 +424,74 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.crown_img:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+.crown_img:hover + .crowndata 
+{
+   opacity: 1;
+   transition: 3s;
+   transform: translate(25%, -40%);
+}
+.third_eye_img:hover{
+  transform: scale(1.5);
+  transition: 1s;
+}
+.third_eye_img:hover + .thirdeyedata 
+{
+   opacity: 1;
+   transition: 3s;
+   transform: translate(-25%, -40%);
+}
+.throat_img:hover{
+  transform: scale(1.5);
+  transition: 1s;
+}
+.throat_img:hover + .throatdata 
+{
+   opacity: 1;
+   transition: 3s;
+   transform: translate(20%, -40%);
+}
+.heart_img:hover{
+  transform: scale(1.5);
+  transition: 1s;
+}
+.heart_img:hover + .heartdata 
+{
+   opacity: 1;
+   transition: 5s;
+   transform: translate(-20%, -40%);
+}
+.solar_plexus_img:hover{
+  transform: scale(1.5);
+  transition: 1s;
+}
+.solar_plexus_img:hover + .solarplexusdata 
+{
+   opacity: 1;
+   transition: 5s;
+   transform: translate(20%, -40%);
+}
+.root_img:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+.root_img:hover + .rootdata 
+{
+   opacity: 1;
+   transition: 5s;
+   transform: translate(20%, -40%);
+}
+.sacral_img:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+.sacral_img:hover + .sacraldata 
+{
+   opacity: 1;
+   transition: 5s;
+   transform: translate(-20%, -40%);
 }

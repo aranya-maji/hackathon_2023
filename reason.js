@@ -16,4 +16,8 @@ function op(val)
 {
     document.getElementById("details").style.transitionDuration = "0.5s";
     document.getElementById("details").style.opacity = "100%";
+    document.getElementById("box1").style.opacity = "100%";
+    document.getElementById("box2").style.opacity = "100%";
+    document.getElementById("box1").style.transitionDuration = "1s";
+    document.getElementById("box2").style.transitionDuration = "1s";
 }

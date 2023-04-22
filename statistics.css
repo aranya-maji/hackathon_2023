@@ -61,13 +61,6 @@ body
   user-select: none;
 }
 
-  .detailArea
-  {
-    display: flex;
-    height: 100vh;
-    background: -webkit-linear-gradient(top, rgb(2,13,41), rgb(9, 30, 81), black);
-  }
-
   @-webkit-keyframes animate-width {
     0% {
       width: 0;
@@ -117,6 +110,13 @@ body
     }
   }
   
+  .detailArea
+  {
+    display: flex;
+    background-color: rgb(2,13,41);
+    height: 100vh;
+  }
+
   .chartArea
   {
     display: flex;

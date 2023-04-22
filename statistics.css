@@ -11,13 +11,32 @@ body
 .sss
 {
     display: flex;
-    height: 300px;
+    height: 100px;
     color: white;
     font-size: 300%;
-    font-family: arial, sans-serif;
     align-items: center;
-    justify-content: center;
+    font-family: arial, sans-serif;
     background-image: linear-gradient(0deg,rgb(2,13,41), black);
+}
+
+.navSystem
+{
+  display: flex;
+  height: 30%;
+  width: 100%;
+  align-items: center;
+  justify-content: right;
+}
+
+.naviSystem
+{
+  display: flex;
+  font-size: 50%;
+  color: white;
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  text-decoration: none;
 }
 
   .detailArea
@@ -86,9 +105,11 @@ body
   .chartGraphics
   {
     display: flex;
+    flex-direction: column;
     width: 100vh;
     justify-content: center;
     align-items: center;
+    font-size: 150%;
     background-color: rgb(2,13,41);
     font-family: arial, sans-serif;
     color: #cdcdcd;
@@ -107,8 +128,10 @@ body
     .chartGraphics
   {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 50%;
+    font-size: 150%;
     background-color: rgb(2,13,41);
     font-family: arial, sans-serif;
     color: #cdcdcd;

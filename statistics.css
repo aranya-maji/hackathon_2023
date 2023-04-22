@@ -137,6 +137,13 @@ body
     color: #cdcdcd;
   }
 
+  .chartShortNote
+  {
+    display: flex;
+    background-color: red;
+    width: 100vh;
+  }
+
   @media only screen and (max-width: 980px)
   {
     .chartArea
@@ -148,16 +155,27 @@ body
     }
 
     .chartGraphics
-  {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 50%;
-    font-size: 150%;
-    background-color: rgb(2,13,41);
-    font-family: arial, sans-serif;
-    color: #cdcdcd;
-  }
+    {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 50%;
+      padding-top: 30px;
+      justify-content: center;
+      align-items: center;
+      font-size: 150%;
+      background-color: rgb(2,13,41);
+      font-family: arial, sans-serif;
+      color: #cdcdcd;
+    }
+
+    .chartShortNote
+    {
+      display: flex;
+      background-color: red;
+      width: 50px;
+      height: 100px;
+    }
   }
 
   #bar-chart {

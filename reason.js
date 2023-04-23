@@ -1,8 +1,48 @@
-function clclr(val)
+function clclr(val,num)
 {
-    document.getElementById(val).style.color = "green";
-    document.getElementById(val).style.borderColor = "green";
+    document.getElementById(val).style.color = "aqua";
+    document.getElementById(val).style.borderColor = "aqua";
     document.getElementById(val).style.transitionDuration = "0.5s";
+    if(num == 1)
+    {
+        document.getElementById("mainCircle").style.backgroundImage = "linear-gradient(0deg, transparent 75%, aqua)";
+        document.getElementById("mainCircle").style.transitionDuration = "2s";
+    }
+    else if(num == 2)
+    {
+        document.getElementById("mainCircle").style.backgroundImage = "linear-gradient(180deg, transparent 75%, aqua)";
+        document.getElementById("mainCircle").style.transitionDuration = "2s";
+    }
+    else if(num == 3)
+    {
+        document.getElementById("mainCircle").style.backgroundImage = "linear-gradient(270deg, transparent 75%, aqua)";
+        document.getElementById("mainCircle").style.transitionDuration = "2s";
+    }
+    else if(num == 4)
+    {
+        document.getElementById("mainCircle").style.backgroundImage = "linear-gradient(90deg, transparent 75%, aqua)";
+        document.getElementById("mainCircle").style.transitionDuration = "2s";
+    }
+    else if(num == 5)
+    {
+        document.getElementById("mainCircle").style.backgroundImage = "linear-gradient(45deg, transparent 60%, aqua)";
+        document.getElementById("mainCircle").style.transitionDuration = "2s";
+    }
+    else if(num == 6)
+    {
+        document.getElementById("mainCircle").style.backgroundImage = "linear-gradient(135deg, transparent 60%, aqua)";
+        document.getElementById("mainCircle").style.transitionDuration = "2s";
+    }
+    else if(num == 7)
+    {
+        document.getElementById("mainCircle").style.backgroundImage = "linear-gradient(225deg, transparent 60%, aqua)";
+        document.getElementById("mainCircle").style.transitionDuration = "2s";
+    }
+    else if(num == 8)
+    {
+        document.getElementById("mainCircle").style.backgroundImage = "linear-gradient(315deg, transparent 60%, aqua)";
+        document.getElementById("mainCircle").style.transitionDuration = "2s";
+    }
 }
 
 function clrbk(val)
@@ -10,6 +50,8 @@ function clrbk(val)
     document.getElementById(val).style.color = "white";
     document.getElementById(val).style.borderColor = "white";
     document.getElementById(val).style.transitionDuration = "0.5s";
+    document.getElementById("mainCircle").style.backgroundImage = "none";
+    document.getElementById("mainCircle").style.transitionDuration = "2s";
 }
 
 function op(val)
@@ -31,14 +73,6 @@ function op(val)
     document.getElementById("para").innerHTML = dialogues[val-1];
 }
 
-function clk()
-{
-    document.getElementById("box1").style.transitionDuration = "1s";
-    document.getElementById("box2").style.transitionDuration = "1s";
-    document.getElementById("box1").style.opacity = "0%";
-    document.getElementById("box2").style.opacity = "0%";
-}
-
 function rem()
 {
     if(document.getElementById("details").style.opacity == "100%")
@@ -46,4 +80,13 @@ function rem()
         document.getElementById("details").style.transitionDuration = "0.5s";
         document.getElementById("details").style.opacity = "0%";
     }
+}
+
+function inv()
+{
+    document.getElementById("details").style.opacity = "0%";
+    document.getElementById("box1").style.opacity = "0%";
+    document.getElementById("box2").style.opacity = "0%";
+    document.getElementById("box1").style.transitionDuration = "1s";
+    document.getElementById("box2").style.transitionDuration = "1s";
 }

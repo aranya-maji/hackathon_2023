@@ -76,7 +76,7 @@ body
   display: flex;
   position: absolute;
   top: 52vh;
-  left: 87vh;
+  left: 97vh;
   width: 24vh;
   height: 24vh;
   border-radius: 50%;
@@ -96,7 +96,7 @@ body
   display: flex;
   position: absolute;
   top: 33vh;
-  left: 92vh;
+  left: 102vh;
   width: 15vh;
   height: 15vh;
   border-radius: 50%;
@@ -117,7 +117,7 @@ body
   display: flex;
   position: absolute;
   top: 82vh;
-  left: 92vh;
+  left: 102vh;
   width: 15vh;
   height: 15vh;
   border-radius: 50%;
@@ -138,7 +138,7 @@ body
   display: flex;
   position: absolute;
   top: 57vh;
-  left: 65vh;
+  left: 75vh;
   width: 15vh;
   height: 15vh;
   border-radius: 50%;
@@ -159,7 +159,7 @@ body
   display: flex;
   position: absolute;
   top: 57vh;
-  left: 117vh;
+  left: 127vh;
   width: 15vh;
   height: 15vh;
   border-radius: 50%;
@@ -180,7 +180,7 @@ body
   display: flex;
   position: absolute;
   top: 41vh;
-  left: 109vh;
+  left: 119vh;
   width: 15vh;
   height: 15vh;
   border-radius: 50%;
@@ -201,7 +201,7 @@ body
   display: flex;
   position: absolute;
   top: 74vh;
-  left: 109vh;
+  left: 119vh;
   width: 15vh;
   height: 15vh;
   border-radius: 50%;
@@ -222,7 +222,7 @@ body
   display: flex;
   position: absolute;
   top: 74vh;
-  left: 74vh;
+  left: 84vh;
   width: 15vh;
   height: 15vh;
   border-radius: 50%;
@@ -243,7 +243,7 @@ body
   display: flex;
   position: absolute;
   top: 40vh;
-  left: 74vh;
+  left: 84vh;
   width: 15vh;
   height: 15vh;
   border-radius: 50%;
@@ -269,7 +269,7 @@ body
   border-color: aqua;
   box-shadow: 55px 50px 50px -10px white;
   top: 94vh;
-  left: 57vh;
+  left: 67vh;
   border-radius: 20px;
   border-top: 0;
   border-left: 0;
@@ -286,7 +286,7 @@ body
   border-color: aqua;
   box-shadow: -55px 50px 50px -10px white;
   top: 94vh;
-  left: 116vh;
+  left: 126vh;
   border-radius: 20px;
   border-top: 0;
   border-right: 0;

@@ -3,7 +3,7 @@ body{
     flex-direction: column;
     margin: 0%;
     scroll-behavior: smooth;
-    /* background-image: linear-gradient(0deg, rgb(2,13,41),black); */
+    background-image: linear-gradient(135deg, rgb(2,13,41),black);
     user-select: none;
 }
 

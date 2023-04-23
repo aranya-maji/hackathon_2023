@@ -67,6 +67,41 @@ body
   user-select: none;
 }
 
+#combat
+{
+  display: flex;
+  font-size: 1.75vh;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  height: 4vh;
+  width: 15vh;
+  background-image: linear-gradient(0deg, rgb(2,13,41),black);
+  border-style: none;
+  text-decoration: none;
+  user-select: none;
+}
+
+#combat:hover
+{
+  display: flex;
+  font-size: 1.75vh;
+  color: rgb(2,13,41);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  height: 4vh;
+  width: 15vh;
+  background-image: none;
+  background-color: white;
+  border-style: none;
+  text-decoration: none;
+  user-select: none;
+}
+
 .drop
 {
   display: flex;

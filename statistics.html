@@ -5,91 +5,85 @@
     Statistics
   </title>
   <link rel="stylesheet" href="statistics.css">
-
+  <script src="statistics.js"></script>
 </head>
 
 <body>
-  <div class="sss">
+  <div class="sss" id="sss">
     <div class="navSystem">
       <nav class="navSystem">
-        <a class="naviSystem" href="">Home</a>
+        <a class="naviSystem" href="homepage.html">Home</a>
         &nbsp&nbsp
         <a class="naviSystem" href="">Parents' corner</a>
         &nbsp&nbsp
         <a class="naviSystem" href="">Students' corner</a>
         &nbsp&nbsp
+        <a class="naviSystem" href="reason.html">Reasons</a>
+        &nbsp&nbsp
         <a class="naviSystem" href="">Symptoms</a>
         &nbsp&nbsp
-        <select name="" id="" class="drop" onChange="window.location.href=this.value">
-          <option class="opt" value="" disabled selected>Combat</option>
-          <option class="opt" value="yoga.html">Yoga</option>
-          <option class="opt" value="">Meditation</option>
-          <option class="opt" value="">Dietry changes</option>
-          <option class="opt" value="">Lifestyle changes</option>
-        </select>
+        <a class="naviSystem" href="yoga.html">Combat</a>
         &nbsp&nbsp
       </nav>
     </div>
   </div>
-  <div class="chartArea">
-    <div class="chartGraphics">
-      Student Suicide Statistics
-      <div id="bar-chart">
-        <div class="graph">
-          <ul class="x-axis">
-            <li><span>2017</span></li>
-            <li><span>2018</span></li>
-            <li><span>2019</span></li>
-            <li><span>2020</span></li>
-            <li><span>2021</span></li>
-          </ul>
-          <ul class="y-axis">
-            <li><span>20</span></li>
-            <li><span>15</span></li>
-            <li><span>10</span></li>
-            <li><span>5</span></li>
-            <li><span>0</span></li>
-          </ul>
-          <div class="bars">
-            <div class="bar-group">
-              <div class="bar bar-1 stat-1" style="height: 51%;">
-                <span>4080</span>
-              </div>
-            </div>
-            <div class="bar-group">
-              <div class="bar bar-4 stat-1" style="height: 76%;">
-                <span>6080</span>
-              </div>
-            </div>
-            <div class="bar-group">
-              <div class="bar bar-7 stat-1" style="height: 78%;">
-                <span>6240</span>
-              </div>
-            </div>
-            <div class="bar-group">
-              <div class="bar bar-10 stat-1" style="height: 44%;">
-                <span>3520</span>
-              </div>
-            </div>
-            <div class="bar-group">
-              <div class="bar bar-13 stat-1" style="height: 82%;">
-                <span>164.03</span>
-              </div>
-            </div>
+  <div class="area" id="area">
+    <div class="wrapper">
+        <canvas id="c"></canvas>
+      </div>
+      <div class="main">
+        <h1>How to<div class="roller">
+          <span id="rolltext">STOP<br/>
+          PROTECT<br/>
+          PREVENT<br/>
+          <span id="spare-time">FIGHT</span><br/>
           </div>
+          </h1>
         </div>
-        <div class="chartShortNote">
-          
-        </div>
+  </div>
+  <button class="myButton" id="myButton" onclick="boxer()">
+    &#x2192;
+  </button>
+  <div class="box" id="box">
+   <button id="close"  onclick="boxrem()">X</button>
+   <div class="head_data">AIMS & OBJECTIVES</div>
+   <div id="slider">
+    <ul>
+      <li>
+      <div class="slider-container">
+        <p>“Went with my wife, absolutely brilliant restaurant, the food tasted beautiful, so much depth and very well presented. As good if not better than any in the city centre. Will definitely be returning.” <br> Nathaniel Harwood – Google</p>
       </div>
-      <div class="detailArea">
-
+      </li>
+      
+      
+        <li>
+        <div class="slider-container">
+        <p>“Great friendly service, the staff don't make you feel rushed, but are also very attentive, and on hand all the time if needed, best Thai food I have had in years, flavours are out of this world, and extremely good prices for the quality you get is top notch!!!!!! Love it” <br>David Armstrong - Porter – Google</p>
       </div>
+      </li>
+        <li>
+        <div class="slider-container">
+        <p>“Possibly one of the best in Manchester. A menu designed and prepared by a very skilled chef, ably assisted by his wife who provides a friendly welcome. Always consistent and of high quality.” <br>Paul Fletcher – Google</p>
+      </div>
+      </li>
+        <li>
+        <div class="slider-container">
+        <p>“Food was amazing and service could not have been better...we went for a quick lunch as our office is opposite the restaurant...very quick service...I am highly recommending this restaurant to all my family and friends...” <br>Nic Gent – Facebook Page</p>
+      </div>
+      </li>
+       <li>
+        <div class="slider-container">
+        <p>“Went for the first time last night for my Husbands Birthday, friendly staff, very tasty food, would highly recommend, we will be back.” <br>Joanne Simms – Facebook Page</p>
+      </div>
+      </li>
+       <li>
+        <div class="slider-container">
+        <p>“A lovely, well decorated restaurant, where great food is served by very friendly staff for a bargain price. The food is authentic and delicious. We'll definitely be returning.”<br>Joe H – Trip Advisor</p>
+      </div>
+      </li>
+    </ul>
     </div>
-    <div class="chartShortNote">
-    </div>
-    <div class="detailArea">
-    </div>
+   
   </div>
 </body>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
@@ -128,4 +122,5 @@
   web.popupURL = "https://www.botlibre.com/chat?&id=47174918&embedded=true&chatLog=true&facebookLogin=false&application=4820002562146263816&bubble=true&menubar=true&chooseLanguage=true&sendImage=true&background=%23fff&prompt=You+say&send=Send&css=https://www.botlibre.com/css/chatlog.css";
   web.createBox();
 </script>
+
 </html>

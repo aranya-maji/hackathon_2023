@@ -74,10 +74,10 @@ body
 {
   display: flex;
   position: absolute;
-  top: 440px;
-  left: 745px;
-  width: 200px;
-  height: 200px;
+  top: 52vh;
+  left: 87vh;
+  width: 24vh;
+  height: 24vh;
   border-radius: 50%;
   border-style: solid;
   border-color: white;
@@ -94,10 +94,10 @@ body
 {
   display: flex;
   position: absolute;
-  top: 270px;
-  left: 785px;
-  width: 120px;
-  height: 120px;
+  top: 33vh;
+  left: 92vh;
+  width: 15vh;
+  height: 15vh;
   border-radius: 50%;
   border-style: solid;
   border-color: white;
@@ -115,10 +115,10 @@ body
 {
   display: flex;
   position: absolute;
-  top: 710px;
-  left: 785px;
-  width: 120px;
-  height: 120px;
+  top: 82vh;
+  left: 92vh;
+  width: 15vh;
+  height: 15vh;
   border-radius: 50%;
   border-style: solid;
   border-color: white;
@@ -136,10 +136,10 @@ body
 {
   display: flex;
   position: absolute;
-  top: 485px;
-  left: 565px;
-  width: 120px;
-  height: 120px;
+  top: 57vh;
+  left: 65vh;
+  width: 15vh;
+  height: 15vh;
   border-radius: 50%;
   border-style: solid;
   border-color: white;
@@ -157,10 +157,10 @@ body
 {
   display: flex;
   position: absolute;
-  top: 485px;
-  left: 1010px;
-  width: 120px;
-  height: 120px;
+  top: 57vh;
+  left: 117vh;
+  width: 15vh;
+  height: 15vh;
   border-radius: 50%;
   border-style: solid;
   border-color: white;
@@ -178,10 +178,10 @@ body
 {
   display: flex;
   position: absolute;
-  top: 345px;
-  left: 935px;
-  width: 120px;
-  height: 120px;
+  top: 41vh;
+  left: 109vh;
+  width: 15vh;
+  height: 15vh;
   border-radius: 50%;
   border-style: solid;
   border-color: white;
@@ -199,10 +199,10 @@ body
 {
   display: flex;
   position: absolute;
-  top: 635px;
-  left: 935px;
-  width: 120px;
-  height: 120px;
+  top: 74vh;
+  left: 109vh;
+  width: 15vh;
+  height: 15vh;
   border-radius: 50%;
   border-style: solid;
   border-color: white;
@@ -220,10 +220,10 @@ body
 {
   display: flex;
   position: absolute;
-  top: 635px;
-  left: 630px;
-  width: 120px;
-  height: 120px;
+  top: 74vh;
+  left: 74vh;
+  width: 15vh;
+  height: 15vh;
   border-radius: 50%;
   border-style: solid;
   border-color: white;
@@ -241,10 +241,10 @@ body
 {
   display: flex;
   position: absolute;
-  top: 345px;
-  left: 630px;
-  width: 120px;
-  height: 120px;
+  top: 40vh;
+  left: 74vh;
+  width: 15vh;
+  height: 15vh;
   border-radius: 50%;
   border-style: solid;
   border-color: white;

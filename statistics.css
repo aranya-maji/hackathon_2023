@@ -19,13 +19,13 @@ body
 .sss
 {
     display: flex;
-    height: 75px;
+    height: 10vh;
     color: white;
     border-style: solid;
     border-left: white;
     border-right: white;
     border-top: white;
-    font-size: 300%;
+    font-size: 5vh;
     align-items: center;
     font-family: arial, sans-serif;
     background-image: linear-gradient(0deg,rgb(2,13,41), black);
@@ -34,8 +34,8 @@ body
 .navSystem
 {
   display: flex;
-  height: 100%;
-  width: 100%;
+  height: 10vh;
+  width: 200vh;
   align-items: center;
   justify-content: right;
 }
@@ -43,28 +43,27 @@ body
 .naviSystem
 {
   display: flex;
-  font-size: 30%;
+  font-size: 1.75vh;
   color: white;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  height: 30px;
-  width: 120px;
+  height: 4vh;
+  width: 15vh;
   text-decoration: none;
-  z-index: 1;
   user-select: none;
 }
 
 .naviSystem:hover
 {
   display: flex;
-  font-size: 30%;
+  font-size: 1.75vh;
   color: rgb(2,13,41);
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  height: 30px;
-  width: 120px;
+  height: 4vh;
+  width: 15vh;
   background-color: white;
   text-decoration: none;
   user-select: none;
@@ -113,10 +112,8 @@ body
 
 .wrapper {
   display: block;
-  margin-top: 3%;
-  margin-left: 2%;
   border: 1px solid #555;
-  width: 800px;
+  width: 100vh;
   height: 450px;
   position: relative;
   align-items: center;
@@ -147,12 +144,15 @@ body
 .area
 {
   display: flex;
+  width: 200vh;
+  height: 60vh;
 }
 
 
 .main{
   /* height:100vh; */
-  width:100%;  
+  width: 100vh;
+  height: 52.6vh;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -252,35 +252,31 @@ h1{
 }
 .myButton
 {
-  margin-top: 2%;
-  margin-left: 2%;
-  height: 40px;
-  width: 40px;
+  height: 5vh;
+  width: 5vh;
+  position: absolute;
+  top: 70vh;
+  left: 5vh;
   border: solid #555 ;
   border-radius: 50%;
   align-items: center;
   text-align: center;
   justify-content: center;
-  line-height:1;
-  font-size: 26px;
+  font-size: 2vh;
   background-color: rgb(2,13,41);
   color: white;
   transition: transform 3s;
-  z-index: 1;
 }
 .box
 {
+  position: absolute;
+  top: 20vh;
+  left: 50vh;
   border :1px solid black;
-  padding :20px;
-  margin-top :-80vh;
-  margin-left:70vh;
-  margin-right:2vh;
-  height:74.3vh;
-  width: 74.3vh;
+  height:70vh;
+  width: 100vh;
   background-color :white;
   border-radius:20px;
-  z-index :1;
-  opacity: 0%;
 }
 #close
 {
@@ -288,7 +284,8 @@ h1{
   width: 2.8vh;
   border-radius:50% ;
   position:absolute;
-  left:145vh;
+  left:95vh;
+  top: 2vh;
 }
 
 
@@ -301,10 +298,10 @@ h1{
 {
 	margin: auto;
 	overflow: hidden;
-	padding: 20px;
-	margin-top: 50px;
-	position: relative;
-	width: 500px;
+  position: absolute;
+  top: 20vh;
+  left: 17vh;
+	width: 68vh;
   background-color: rgb(2,13,41);
   border-radius: 20px;
   height: 270px;

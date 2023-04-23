@@ -277,6 +277,7 @@ h1{
   width: 100vh;
   background-color :white;
   border-radius:20px;
+  opacity: 0%;
 }
 #close
 {

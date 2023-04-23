@@ -15,9 +15,9 @@ body
 .heading
 {
   display: flex;
-  height: 200px;
+  height: 25vh;
   position: absolute;
-  width: 1690px;
+  width: 200vh;
   border-style: solid;
   border-color: white;
   border-left: 0;

@@ -27,13 +27,13 @@ body
   align-items: center;
   color: white;
   font-family: arial, sans-serif;
-  font-size: 300%;
+  font-size: 8vh;
 }
 
 .contents
 {
   display: flex;
-  height: 1400px;
+  height: 163.2vh;
 }
 
 .desc
@@ -41,8 +41,8 @@ body
   display: flex;
   position: absolute;
   height: 420px;
-  width: 1690.67px;
-  top: 1400px;
+  width: 200vh;
+  top: 163.8vh;
   justify-content: center;
   align-items: center;
 }
@@ -50,8 +50,8 @@ body
 .details
 {
   display: flex;
-  width: 800px;
-  height: 350px;
+  width: 100vh;
+  height: 40vh;
   justify-content: center;
   align-items: center;
   color: white;
@@ -261,14 +261,14 @@ body
 #box1
 {
   display: flex;
-  height: 550px;
-  width: 200px;
+  height: 64vh;
+  width: 25vh;
   position: absolute;
   border-style: solid;
   border-color: aqua;
   box-shadow: 55px 50px 50px -10px white;
-  top: 800px;
-  left: 480px;
+  top: 94vh;
+  left: 57vh;
   border-radius: 20px;
   border-top: 0;
   border-left: 0;
@@ -278,14 +278,14 @@ body
 #box2
 {
   display: flex;
-  height: 550px;
-  width: 200px;
+  height: 64vh;
+  width: 25vh;
   position: absolute;
   border-style: solid;
   border-color: aqua;
   box-shadow: -55px 50px 50px -10px white;
-  top: 800px;
-  left: 1010px;
+  top: 94vh;
+  left: 116vh;
   border-radius: 20px;
   border-top: 0;
   border-right: 0;

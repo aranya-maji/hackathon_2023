@@ -300,7 +300,7 @@ window.addEventListener('load',function(){
     {
       if(document.getElementById("box").style.opacity = "0%")
       {
-        document.getElementById("box").style.transitionDuration = "3s";
+        document.getElementById("box").style.transitionDuration = "1s";
         document.getElementById("box").style.opacity = "100%";
         document.getElementById("sss").style.opacity = "20%";
         document.getElementById("area").style.opacity = "20%";
@@ -309,7 +309,7 @@ window.addEventListener('load',function(){
     
     function boxrem()
     {
-      document.getElementById("box").style.transitionDuration = "3s";
+      document.getElementById("box").style.transitionDuration = "1s";
       document.getElementById("box").style.opacity = "0%"; 
       document.getElementById("sss").style.opacity = "100%";
       document.getElementById("area").style.opacity = "100%";

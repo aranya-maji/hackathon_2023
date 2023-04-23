@@ -313,6 +313,4 @@ window.addEventListener('load',function(){
       document.getElementById("box").style.opacity = "0%"; 
       document.getElementById("sss").style.opacity = "100%";
       document.getElementById("area").style.opacity = "100%";
-    }
-    
-    
+    }  

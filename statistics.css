@@ -34,7 +34,7 @@ body
 .navSystem
 {
   display: flex;
-  height: 30%;
+  height: 100%;
   width: 100%;
   align-items: center;
   justify-content: right;
@@ -51,6 +51,7 @@ body
   height: 30px;
   width: 120px;
   text-decoration: none;
+  z-index: 1;
   user-select: none;
 }
 

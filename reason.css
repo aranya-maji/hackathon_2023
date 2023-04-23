@@ -85,7 +85,7 @@ body
   justify-content: center;
   align-items: center;
   font-family: arial, sans-serif;
-  font-size: 120%;
+  font-size: 2vh;
   overflow: hidden;
   user-select: none;
 }
@@ -105,7 +105,7 @@ body
   justify-content: center;
   align-items: center;
   font-family: arial, sans-serif;
-  font-size: 80%;
+  font-size: 1.2vh;
   overflow: hidden;
   user-select: none;
   cursor: pointer;
@@ -126,7 +126,7 @@ body
   justify-content: center;
   align-items: center;
   font-family: arial, sans-serif;
-  font-size: 80%;
+  font-size: 1.2vh;
   overflow: hidden;
   user-select: none;
   cursor: pointer;
@@ -147,7 +147,7 @@ body
   justify-content: center;
   align-items: center;
   font-family: arial, sans-serif;
-  font-size: 80%;
+  font-size: 1.2vh;
   overflow: hidden;
   user-select: none;
   cursor: pointer;
@@ -168,7 +168,7 @@ body
   justify-content: center;
   align-items: center;
   font-family: arial, sans-serif;
-  font-size: 70%;
+  font-size: 1.2vh;
   overflow: hidden;
   user-select: none;
   cursor: pointer;
@@ -189,7 +189,7 @@ body
   justify-content: center;
   align-items: center;
   font-family: arial, sans-serif;
-  font-size: 80%;
+  font-size: 1.2vh;
   overflow: hidden;
   user-select: none;
   cursor: pointer;
@@ -210,7 +210,7 @@ body
   justify-content: center;
   align-items: center;
   font-family: arial, sans-serif;
-  font-size: 80%;
+  font-size: 1.2vh;
   overflow: hidden;
   user-select: none;
   cursor: pointer;
@@ -231,7 +231,7 @@ body
   justify-content: center;
   align-items: center;
   font-family: arial, sans-serif;
-  font-size: 80%;
+  font-size: 1.2vh;
   overflow: hidden;
   user-select: none;
   cursor: pointer;
@@ -252,7 +252,7 @@ body
   justify-content: center;
   align-items: center;
   font-family: arial, sans-serif;
-  font-size: 80%;
+  font-size: 1.2vh;
   overflow: hidden;
   user-select: none;
   cursor: pointer;

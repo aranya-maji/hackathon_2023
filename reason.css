@@ -34,7 +34,7 @@ body
 {
   display: flex;
   height: 163.2vh;
-  width: 200vh;
+  width: 220vh;
 }
 
 .desc
@@ -42,7 +42,7 @@ body
   display: flex;
   position: absolute;
   height: 420px;
-  width: 200vh;
+  width: 220vh;
   top: 163.8vh;
   justify-content: center;
   align-items: center;
@@ -51,7 +51,7 @@ body
 .details
 {
   display: flex;
-  width: 80vh;
+  width: 100vh;
   height: 40vh;
   justify-content: center;
   align-items: center;

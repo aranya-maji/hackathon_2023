@@ -17,7 +17,7 @@ body
   text-align: center;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 20vh;
   font-size: 12vh;
   line-height: 1.5;
   -webkit-text-fill-color: rgb(2,13,41);
@@ -247,6 +247,265 @@ body
    z-index: 2;
 }
 
+@media only screen and (max-width: 980px)
+{
+  body
+  {
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient(to bottom,rgb(2,13,41),black) ;
+    color:white;
+    width: 200vh;
+    height: 170vh;
+  }
+  .heading
+  {
+    font-family: Copperplate, fantasy;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 78vh;
+    font-size: 6vh;
+    line-height: 1.5;
+    -webkit-text-fill-color: rgb(2,13,41);
+    -webkit-text-stroke-color:white ;
+    -webkit-text-stroke-width: 1px;
+  }
+  .lovers
+  {
+    position: absolute;
+    width: 30vh;
+    height: 58vh;
+    font-family: Comic MS , cursive;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    border: dotted white;
+    top:20vh;
+    left:20vh;
+    z-index: 1;
+  }
+  .textL
+  {
+    font-size: 3vh;
+    font-family: Comic MS , cursive;
+    position: absolute;
+    width: 100vh;
+    top:20.8vh;
+    left: 10.6vh;
+    user-select: none;
+    opacity: 0%;
+  }
+  .textO
+  {
+    font-size: 3vh;
+    font-family: Comic MS , cursive;
+    position: absolute;
+    top:31.15vh;
+    left:37.1vh;
+    width: 30vh;
+    user-select: none;
+    opacity: 0%;  
+  }
+  .textV
+  {
+    font-size: 3vh;
+    font-family: Comic MS , cursive;
+    position: absolute;
+    width: 40vh;
+    top:41.8vh;
+    left:36.7vh;
+    user-select: none;
+    opacity: 0%; 
+  }
+  .textE
+  {
+    font-size: 3vh;
+    font-family: Comic MS , cursive;
+    position: absolute;
+    width: 31vh;
+    top:52.2vh;
+    left:37vh;
+    user-select: none;
+    opacity: 0%; 
+  }
+  .textR
+  {
+    font-size: 3vh;
+    font-family: Comic MS , cursive;
+    position: absolute;
+    top:62.7vh;
+    left:37vh;
+    user-select: none;
+    opacity: 0%; 
+  }
+  .textS
+  {
+    font-size: 3vh;
+    font-family: Comic MS , cursive;
+    position: absolute;
+    width: 40vh;
+    top:73.2vh;
+    left:37vh;
+    user-select: none;
+    opacity: 0%; 
+  }
+
+  .l
+  {
+    height: 4vh;
+    width: 4vh;
+    left: 13.8vh;
+    top:1.5vh;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    color: white;
+    z-index: 2;
+    line-height:0.8;
+  }
+  .l:hover{
+    height: 3vh;
+    width: 3vh;
+    left: 13.8vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(2,13,41);
+    user-select: none;
+    z-index: 2;
+  }
+  .o{
+    height: 8vh;
+    width: 8vh;
+    left: 11.8vh;
+    top:12vh;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    color: white;
+    z-index: 2;
+    line-height:0.8;
+  }
+  .o:hover{
+    height: 3vh;
+    width: 3vh;
+    left: 13.8vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(2,13,41);
+    user-select: none;
+    z-index: 2;
+  }
+  .v{
+    height: 8vh;
+    width: 8vh;
+    left: 11.8vh;
+    top:22.5vh;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    color: white;
+    z-index: 2;
+    line-height:0.8;
+  }
+  .v:hover{
+    height: 3vh;
+    width: 3vh;
+    left: 13.8vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(2,13,41);
+    user-select: none;
+    z-index: 2;
+  }
+  .e{
+    height: 8vh;
+    width: 8vh;
+    left: 11.8vh;
+    top:33vh;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    color: white;
+    z-index: 2;
+    line-height:0.8;
+  }
+  .e:hover{
+    height: 3vh;
+    width: 3vh;
+    left: 13.8vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(2,13,41);
+    user-select: none;
+    z-index: 2;
+  }
+  .r{
+    height: 8vh;
+    width: 8vh;
+    left: 11.8vh;
+    top:43.5vh;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    color: white;
+    z-index: 2;
+    line-height:0.8;
+  }
+  .r:hover{
+    height: 3vh;
+    width: 3vh;
+    left: 13.8vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(2,13,41);
+    user-select: none;
+    z-index: 2;
+  }
+  .s{
+    height: 8vh;
+    width: 8vh;
+    left: 11.8vh;
+    top:54vh;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    color: white;
+    z-index: 2;
+    line-height:0.8;
+  }
+  .s:hover{
+    height: 3vh;
+    width: 3vh;
+    left: 13.8vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(2,13,41);
+    user-select: none;
+    z-index: 2;
+  }
+}
 
 #stars {
     content:"e";

@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>
+        Students' Corner
+    </title>
+    <link rel="stylesheet" href="studcorn.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.0/dist/semantic.min.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="heading1">
+            <h1>Students' Corner</h1>
+        </div>
+    </div>
+    <div id="contentHolder">
+        <div id="content">
+            <div class="ui styled fluid accordion" id="accFaq">
+                <div class="title">
+                    <i class="dropdown icon"></i>
+                    question
+                </div>
+                <div class="content">
+                    <p>answer</p>
+                </div>
+                <div class="title">
+                    <i class="dropdown icon"></i>
+                    question
+                </div>
+                <div class="content">
+                    <p>answer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.0/dist/semantic.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            initUI()
+        })
+
+        function initUI() {
+            $('#accFaq').accordion()
+        }
+    </script>
+</body>
+
+</html>

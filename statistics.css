@@ -322,27 +322,6 @@ h1{
   top: 2vh;
 }
 
-.data2
-{
-  display: flex;
-  width: 198vh;
-  height: 60vh;
-}
-
-.surv2
-{
-  display: flex;
-  width: 99vh;
-  height: 60vh;
-}
-
-.graph2
-{
-  display: flex;
-  width: 99vh;
-  height: 60vh;
-}
-
 #slider, ul
 {
 	height: 31.6vh;
